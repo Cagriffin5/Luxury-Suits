@@ -19,7 +19,7 @@ const observer = new IntersectionObserver(function( entries, observer ){
     }
   } );
 }, { 
-  threshold: 0.55 
+  threshold: 0.2 
 });
 
 //attach the observer to each page

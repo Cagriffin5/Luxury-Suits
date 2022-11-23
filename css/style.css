@@ -76,9 +76,11 @@ html{
     font-size: 30px;
     margin-left: 50px;
     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
   }
  #address{
   margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
  }
   /*Home Page*/
   #home {
@@ -117,6 +119,10 @@ html{
     font-size: 30px;
     margin-top: 20px;
   }
+  #suits h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
     .heading {
         text-align: center;
         font-size: 2.0em;
@@ -983,14 +989,15 @@ html{
   body .multi-carousal-container .carousal .card h1 {
     display: inline-block;
     margin: 0;
-    font-size: 30px;
+    font-size: 35px;
   }
   body .multi-carousal-container .carousal .card p {
     margin: 0;
-    font-size:30px;
+    font-size:20px;
     color: white;
     font-weight: bold;
     line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   /*contact*/
@@ -1177,9 +1184,9 @@ html{
   #contact {
     --s: 200px; /* control the size */
     
-    --_g: #dc9d37 25%,#fed450 0 50%,#0000 0;
-    --_l1: #fff 0 1px,#0000 0 calc(25% - 1px),#fff 0 25%;
-    --_l2: #fff 0 1px,#0000 0 calc(50% - 1px),#fff 0 50%;
+    --_g: #222121 25%,#0d0c0b 0 50%,#0000 0;
+    --_l1: rgb(6, 6, 6) 0 1px,#0000 0 calc(25% - 1px),rgb(26, 24, 24) 0 25%;
+    --_l2: rgb(20, 16, 16) 0 1px,#0000 0 calc(50% - 1px),rgb(71, 69, 69) 0 50%;
     background:
       repeating-linear-gradient( 45deg,var(--_l1)),
       repeating-linear-gradient(-45deg,var(--_l1)),
@@ -1189,6 +1196,6 @@ html{
       conic-gradient(from 225deg at 25% 25%,var(--_g)),
       conic-gradient(from  45deg at 75% 75%,var(--_g)),
       conic-gradient(from -45deg at 75% 25%,var(--_g)),
-      repeating-conic-gradient(#2e2e2e 0 45deg,#5c0b08 0 90deg);  
+      repeating-conic-gradient(#2e2e2e 0 45deg,#161515 0 90deg);  
     background-size: var(--s) var(--s);
   }
